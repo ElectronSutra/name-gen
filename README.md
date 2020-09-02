@@ -2,6 +2,19 @@
 
 Generate names based on input files specifying language traits.
 
+## Use the Program
+
+To execute the program, you need to provide two arguments: the name of a
+language specification file and the number of names you want to generate.
+
+The **name of the specification file** is the name of a YAML file in the `lang/`
+folder, extension `.yaml`. Do NOT include the `.yaml`; I'll fix that in the
+future.
+
+The **number of names to generate** must be int or convertible to int.
+
+## Language Specification Files
+
 Languages are specified in the `lang/` folder, in the form of a YAML (.yaml)
 file. At minimum, a language specification file must contain the following:
 
