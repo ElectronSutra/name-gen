@@ -1,0 +1,6 @@
+syllable_structures: ["CV", "CVN", "VN"]
+name_shapes: [2, 3, 1]
+separator: " "
+"C": ["p","t","k","m","n","s","h","r"]
+"V": ["a","i","u"]
+"N": ["n"]
